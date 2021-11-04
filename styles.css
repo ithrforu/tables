@@ -9,6 +9,11 @@ table {
 	font-size: 0.8rem;
 }
 
+tbody, thead {
+		overflow-x: auto;
+	max-width: 100%;
+}
+
 td, th {
 	border: 1px solid rgb(190,190,190);
 	padding: 10px 20px;
@@ -37,4 +42,8 @@ caption {
 .fig-table {
 	max-width: 100%;
 	overflow-x: auto;
+}
+
+col + col {
+	border: 3px solid #000;
 }
