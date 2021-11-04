@@ -35,6 +35,10 @@ tr:nth-child(odd) td {
 	background-color: rgb(245,245,245);
 }
 
+col + col {
+	border: 3px solid #000;
+}
+
 caption {
 	padding: 10px;
 }
@@ -42,8 +46,4 @@ caption {
 .fig-table {
 	max-width: 100%;
 	overflow-x: auto;
-}
-
-col + col {
-	border: 3px solid #000;
 }
